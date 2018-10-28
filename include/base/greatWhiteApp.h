@@ -24,6 +24,8 @@ public:
 
   static void registerApps();
   static void registerAll(Factory & f, ActionFactory & af, Syntax & s);
+
+  static void printLogo();
 };
 
 #endif /* GREAT_WHITEAPP_H */

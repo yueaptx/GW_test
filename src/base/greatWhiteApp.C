@@ -48,3 +48,15 @@ greatWhiteApp__registerApps()
 {
   greatWhiteApp::registerApps();
 }
+
+
+void
+greatWhiteApp::printLogo()
+{
+  Moose::out << "\n"
+             << "\n     GGG  RRR    EE    AA  TTTTT    W   W  H   H  I  TTTTT   EE  "
+             << "\n    G     R  R  E  E  A  A   T      W W W  HHHHH  I    T    E  E "
+             << "\n    G  G  RRR   EE    AAAA   T      WW WW  HHHHH  I    T    EE   "
+             << "\n     GGG  R  R   EEE  A  A   T      W   W  H   H  I    T     EEE "
+             << "\n";
+}
